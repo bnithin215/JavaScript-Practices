@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bonafide Certificate Generator</title>
+    <link href="/style.css" rel="stylesheet"/>
+    <link href="/logo.png" rel="icon" type="image/png"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo-container">
+        <img src="https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-1/307563786_459701899521592_1115002225573444675_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=g313lVSzFJAQ7kNvgF3uEcC&_nc_oc=AdlsJboBBN2IhiongvD4firNzKy3TKN9Xlg4noUAqQTT3zfmg_zjPR1K7geRmcuDxqnyIR8l-NFMKPC-_8hQXseP&_nc_zt=24&_nc_ht=scontent.fhyd11-2.fna&_nc_gid=nOE5O4EozN0bHXvp-mQ2IA&oh=00_AYFT5RR4QFI0JArSjE5CewDBG9kDFo31kEth0AvDgpBrNQ&oe=67F06C47" alt="Logo" id="logo"/>
+    </div>
+    <nav class="navbar">
+        <p><a href="/students/create">Create Student</a></p>
+        <p><a href="/students/list">View All Students</a></p>
+    </nav>
+
+    <h1>Bonafide Certificate Generator</h1>
+
+
+    <form action="/students/pdf" method="get">
+        <div class="form-group">
+            <label for="studentId">Enter Student ID:</label>
+            <input type="text" id="studentId" name="studentId" placeholder="Enter Student ID" />
+        </div>
+        <button type="submit">Generate Certificate</button>
+    </form>
+
+    
+</div>
+
+</body>
+</html>
